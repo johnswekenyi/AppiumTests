@@ -4,12 +4,11 @@ import io.appium.java_client.AppiumDriver;
 import org.apache.commons.lang3.Range;
 import org.testng.annotations.Test;
 
-import static org.apache.commons.lang3.Range.is;
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.testng.Assert.assertTrue;
-import static sun.jvm.hotspot.interpreter.BytecodeTableswitch.at;
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertTrue;
 
-public class SplashScreenKeTest extends TestBaseKe{
+public class KeSplashScreenTest extends TestBaseKe{
 
     private SplashScreenPage splashScreenPage;
     private static SplashScreenStringsProvider splashScreenStringsProvider = new KeSplashScreenPageStrings();
@@ -56,8 +55,5 @@ public class SplashScreenKeTest extends TestBaseKe{
     }
 
     private void at(Class<SignUpPage> signUpPageClass) {
-    }
-
-    private void assertThat(String text, Range<String> stringRange) {
     }
 }

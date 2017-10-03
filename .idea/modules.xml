@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TalaAppAppiumTestsOnboarding.iml" filepath="$PROJECT_DIR$/TalaAppAppiumTestsOnboarding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tala-App-Appium-Tests-Onboarding.iml" filepath="$PROJECT_DIR$/Tala-App-Appium-Tests-Onboarding.iml" />
     </modules>
   </component>
 </project>
